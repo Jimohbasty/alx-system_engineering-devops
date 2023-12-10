@@ -42,7 +42,7 @@ frontend www-http
 
 frontend www-https
 	# Settings for SSL/TLS
-	bind *:443 ssl crt /etc/haproxy/certs/www.benehub.tech.pem
+	bind *:443 ssl crt /etc/haproxy/certs/www.jagabasty.tech.pem
 	http-request set-header X-Forwarded-Proto https
 	default_backend www-backend
 
