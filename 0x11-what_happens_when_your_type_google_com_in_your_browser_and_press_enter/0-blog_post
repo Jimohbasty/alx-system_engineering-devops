@@ -1,0 +1,6 @@
+When you type google.com in the browser and press enter several steps are taken that help to retrieve and display the Google homepage.
+One is DNS resolution where the browser translates the human-readable domain name into an IP address the computer can understand by querying the DNS server which returns the IP address associated with the domain.
+Two HTTP Request is sent. Once the browser has an IP address it sends an HTTP request to the webserver that is associated with the IP address. The request includes the type of request and resources being requested. In this case request is GET and the resource is / for the homepage.
+Three is Server Processing. The webserver which hosts the Google website receives the request and processes it. It performs various tasks like retrieving the requested webpage, executing the scripts and handling server-side operations.
+Fourth is Webpage Generation. Here the server generates an HTML document that is a representation of the structure and the content of the Google homepage. The HTML document includes references to additional resources like images, CSS, JavaScript and more that work with HTML.
+Five you get a response where the Google home page is displayed in the browser with buttons, search bars, images and other elements. The process is a collaboration between the browser, DNS servers and Google Web Servers.
